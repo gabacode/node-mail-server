@@ -1,0 +1,19 @@
+{
+  "name": "node-mail-server",
+  "version": "1.0.0",
+  "description": "A simple node server to send emails",
+  "main": "index.js",
+  "privace": true,
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "author": "Gabriele Scalici <gaba@totel.it>",
+  "license": "0BSD",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.7.2"
+  }
+}

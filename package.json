@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple node server to send emails",
   "main": "index.js",
-  "privace": true,
+  "private": true,
   "scripts": {
     "start": "node ./index.js"
   },

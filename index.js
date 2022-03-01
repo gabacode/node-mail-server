@@ -32,7 +32,7 @@ const transporter = nodemailer.createTransport({
         const mailData = {
             from: from,
             to: process.env.MAIL_TO,
-            subject: `Hai ricevuto un nuovo messaggio da ` + subject,
+            subject: subject,
             text: text,
         };
     
